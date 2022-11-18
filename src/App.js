@@ -33,6 +33,7 @@ function App() {
   }, [checkbox]);
   return (
     <div className="App">
+      <h4>Pizza</h4>
       <div className="totalContainer bottomItems">
       <div>
         <div>

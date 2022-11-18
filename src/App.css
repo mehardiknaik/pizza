@@ -6,13 +6,18 @@
   height: 100vh;
   flex-direction: column;
 }
-button{
+
+button {
   margin-inline: 1rem;
 }
-.totalContainer{
+
+.totalContainer {
   width: 30vw;
+  border: 1px solid;
+  padding: 9px;
 }
-.bottomItems{
+
+.bottomItems {
   display: flex;
   justify-content: space-between;
 }
