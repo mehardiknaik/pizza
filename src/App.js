@@ -9,6 +9,7 @@ function App() {
   const [pay, setPay] = useState(0);
   const [addons] = useState(30);
   const [discount] = useState(10);
+  const [price] = useState(100);
 
   const handleinc = () => {
     setQty((prev) => prev + 1);
@@ -20,7 +21,7 @@ function App() {
   };
 
   useEffect(() => {
-    setTotal(qty * 100);
+    setTotal(qty * price);
   }, [qty]);
 
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
   useEffect(() => {
     setTotal((prev) =>prev?checkbox? prev + addons: prev - addons:0);
   }, [checkbox]);
+  
   return (
     <div className="App">
       <h4>Pizza</h4>
