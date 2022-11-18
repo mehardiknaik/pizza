@@ -33,6 +33,7 @@ function App() {
   }, [checkbox]);
   return (
     <div className="App">
+      <div className="totalContainer bottomItems">
       <div>
         <div>
           <button onClick={handleinc}>+</button>
@@ -48,7 +49,8 @@ function App() {
         add ons
       </div>
       <div>
-        <img src="" />
+        <img height={'100'} src="/pizza.svg" />
+      </div>
       </div>
       <div className="totalContainer">
         <div className="bottomItems">
