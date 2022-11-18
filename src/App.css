@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+button{
+  margin-inline: 1rem;
+}
+.totalContainer{
+  width: 30vw;
+}
+.bottomItems{
+  display: flex;
+  justify-content: space-between;
+}
